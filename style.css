@@ -147,8 +147,8 @@ body {
 }
 
 .main-memory {
-  justify-content: space-between;
-  width:60%;
+  
+  width:50%;
   display: flex;
   flex-direction: row;
 }
@@ -443,5 +443,14 @@ body {
   }
   .equal {
     grid-area: equal;
+  }
+}
+@media screen and (min-width:1024px) {
+  .memory-clear,
+  .memory-recall,
+  .memory-plus,
+  .memory-submission,
+  .memory-save{
+    width: 100px;
   }
 }
