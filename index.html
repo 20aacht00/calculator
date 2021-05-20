@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <section id="history">
+        <div class="history-button">
+          <div class="history">History</div>
+          <div class="memory-h">Memory</div>
+        </div>
+        <div class="free-space">There is no history yet</div>
+      </section>
+      <section id="top-bar">
+        <div class="calculator">Calculator</div>
+        <div class="bar-button">
+          <div class="mini-size"><i class="fas fa-minus"></i></div>
+          <div class="max-size"><i class="far fa-window-maximize"></i></div>
+          <div class="close"><i class="far fa-window-close"></i></div>
+        </div>
+      </section>
+      <section id="standard">
+        <div class="standard-button">
+        <div class="navigation"><i class="fas fa-bars"></i></div>
+        <div class="standard">Standard</div>
+        <div class="topcalc"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></div>
+      </div>
+        <div class="history-icon"><i class="fas fa-history"></i></div>
+      </section>
+      <section id="input"><div class="input">0</div></section>
+      <section id="memory-command">
+        <div class="main-memory">
+        <div class="memory-clear memory">MC</div>
+        <div class="memory-recall memory">MR</div>
+        <div class="memory-plus memory">+M</div>
+        <div class="memory-submission memory">-M</div>
+        <div class="memory-save memory">MS</div>
+      </div>
+        <div id="memo" class="memory-option memory"><div>M<sup><i class="fas fa-caret-down"></i></sup></div></div>
+      </section>
+      
+      <section id="numbers-functions">
+        <div class="func2 percent flex-center">%</div>
+        <div class="func2 radical flex-center"><div><sup>2</sup>&Sqrt;</div>x</div>
+          <div class="func2 power2 flex-center">
+            <div>x<sup>2</sup></div>
+          </div>
+          <div class="func2 one-div-x flex-center">1/x</div>
+          <div class="func2 ce flex-center">CE</div>
+          <div class="func2 c flex-center">C</div>
+          <div class="func2 backspace flex-center"><i class="fas fa-backspace"></i></div>
+          <div class="func1 division flex-center">&div;</div>
+          <div class="number n7 flex-center">7</div>
+          <div class="number n8 flex-center">8</div>
+          <div class="number n9 flex-center">9</div>
+          <div class="func1 X flex-center">&times;</div>
+          <div class="number n4 flex-center">4</div>
+          <div class="number n5 flex-center">5</div>
+          <div class="number n6 flex-center">6</div>
+          <div class="func1 minus flex-center">&minus;</div>
+          <div class="number n1 flex-center">1</div>
+          <div class="number n2 flex-center">2</div>
+          <div class="number n3 flex-center">3</div>
+          <div class="func1 plus flex-center">+</div>
+          <div class="func2 minus-plus flex-center">
+            <div><sup>+</sup>/<sub>-</sub></div>
+          </div>
+          <div class="number n0 flex-center">0</div>
+          <div class="func1 dot flex-center">.</div>
+          <div class="func1 equal flex-center">=</div>
+          <div class="func2 x3 power3"><div>x<sup>3</sup></div></div>   
+    </div>
+      </section>
+  </body>
+</html>
+<script src="https://kit.fontawesome.com/cf3e7f85ae.js" crossorigin="anonymous"></script>
